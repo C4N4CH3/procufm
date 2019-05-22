@@ -1,0 +1,30 @@
+<link href="../css/bootstrap/3.3.0/bootstrap.min.css" rel="stylesheet">
+<link href="../css/material/roboto.min.css" rel="stylesheet">
+<link href="../css/material/material.min.css" rel="stylesheet">
+<link href="../css/material/ripples.min.css" rel="stylesheet">
+<link href="../css/material/materialmodif.css" rel="stylesheet">
+
+<?php include_once '../navbar.php';?>
+
+<?php include_once '../footer.php';?>
+
+<script type="text/javascript" src="../js/1.11.1/jquery.min.js"></script>
+<script src="../js/bootstrap/3.3.0/bootstrap.min.js"></script>
+<script src="../js/material/material.min.js"></script>
+<script src="../js/material/ripples.min.js"></script>
+<script>
+      $.material.init();
+</script>
+
+<!--PARA EL MENU EN EL AREA DE EMPLEADO-->
+<div class="sidebar1"> 
+    <?php include_once '../administrador/menu_admin.php' ?>
+  <!-- end .sidebar1 -->
+ </div>
+ 
+
+para el contenido de cualquier pagina 
+<div class="well col-md-9 col-lg-9 col-sm-9 col-xs-9" style="margin-left:20px">
+
+Cómo utilizar jQuery para marcar, desmarcar o verificar si está marcado un CHECKBOX
+
