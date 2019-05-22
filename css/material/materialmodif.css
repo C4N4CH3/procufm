@@ -1,0 +1,395 @@
+@charset "utf-8";
+/* CSS Document */
+
+.radio label .circle {
+  border: 2px solid rgba(218, 83, 83, 0.84);
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+}
+.radio label .check {
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0.84);
+  -webkit-transform: scale3d(0, 0, 0);
+          transform: scale3d(0, 0, 0);
+}
+.radio label .check:after {
+  display: block;
+  position: absolute;
+  content: "";
+  background-color: rgba(225, 87, 34, 0.84);
+  left: -18px;
+  top: -18px;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  z-index: 1;
+  opacity: 0;
+  margin: 0;
+  -webkit-transform: scale3d(1.5, 1.5, 1);
+          transform: scale3d(1.5, 1.5, 1);
+}
+.has-error .help-block,
+.has-error .control-label,
+.has-error .radio,
+.has-error .checkbox,
+.has-error .radio-inline,
+.has-error .checkbox-inline,
+.has-error.radio label,
+.has-error.checkbox label,
+.has-error.radio-inline label,
+.has-error.checkbox-inline label {
+  color: #000000;
+}
+.has-warning .help-block, 
+.has-warning .control-label, 
+.has-warning .radio, 
+.has-warning .checkbox, 
+.has-warning .radio-inline, 
+.has-warning .checkbox-inline, 
+.has-warning.radio label, 
+.has-warning.checkbox label, 
+.has-warning.radio-inline label, 
+.has-warning.checkbox-inline label{
+  color: #000000;
+}
+.btn-material-red-900:hover:not(.btn-link):not(.btn-flat) {
+  background-color: #c91f1f;
+}
+.btn-material-red-900:not(.btn-link):not(.btn-flat) {
+  background-color: #b71c1c;
+  color: rgba(255, 255, 255, 0.84);
+}
+.checkbox{
+	margin-top:10px;
+	margin-bottom:10px
+}
+.navbar-material-red-900:not(.btn-link):not(.btn-flat) {
+  background-color: #b71c1c;
+  color: rgba(255, 255, 255, 0.84);
+}
+#menuprincipal{
+	width:160px;
+	height:30px;
+	margin-bottom:5px;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	}
+.panel-red-900>.panel-heading{
+	 background-color: #b71c1c;
+	 }
+/*Para la barra del input en BLANCO
+.form-control{
+	 background-image:linear-gradient(#009688,#009688),linear-gradient(#fff,#fff);
+	 }
+.form-control-wrapper .floating-label{
+	color:white;
+	}
+.form-control{
+	color:white;
+	}*/
+@media print {
+  .noimprimir{
+	  background-color: #0FF;
+	  display:none;
+	  
+	  }
+}
+body{
+	background-image:url(../../images/fondo/body1.png)
+	}
+/*.form-control{
+	background-image: linear-gradient(#b71c1c,#b71c1c),linear-gradient(#d2d2d2,#d2d2d2);
+	}
+.form-group .form-control:focus, .form-group-default .form-control:focus{
+	background-image: linear-gradient(#b71c1c,#b71c1c),linear-gradient(#d2d2d2,#d2d2d2);
+	}
+.form-control:focus, .form-control.focus{
+	background-image: linear-gradient(#b71c1c,#b71c1c),linear-gradient(#d2d2d2,#d2d2d2);
+	}
+.floating-label{
+	color: #b71c1c;
+	}*/
+	
+/*MATERIAL COLOR AZUL 900*/
+body .well-material-blue-900,
+.container .well-material-blue-900,
+.container-fluid .well-material-blue-900,
+body .jumbotron-material-blue-900,
+.container .jumbotron-material-blue-900,
+.container-fluid .jumbotron-material-blue-900 {
+  background-color: #0d47a1;
+}
+.btn-material-blue-900.btn-flat:not(.btn-link) {
+  color: #0d47a1;
+}
+.panel-blue-900>.panel-heading{
+	 background-color: #0d47a1;
+}
+.btn-material-blue-900:not(.btn-link):not(.btn-flat) {
+  background-color: #0d47a1;
+  color: rgba(255, 255, 255, 0.84);
+}
+.btn-material-blue-900:hover:not(.btn-link):not(.btn-flat) {
+  background-color: #0f4fb4;
+}
+.btn-material-blue-900:active:not(.btn-link):not(.btn-flat) {
+  background-color: #0f53bd;
+}
+.btn-material-blue-900.btn-flat:hover:not(.btn-ink) {
+  background-color: rgba(13, 71, 161, 0.2);
+}
+.btn.btn-fab-material-blue-900,
+.btn.btn-fab:hover-material-blue-900,
+.btn.btn-fab:active-material-blue-900 {
+ background-color: #0d47a1;
+ }
+ .open > .dropdown-toggle.btn-material-blue-900 {
+  background-color: #0d47a1;
+}
+.checkbox-material-blue-900 input[type=checkbox]:checked + .checkbox-material .check:after {
+  background-color: #0d47a1;
+}
+.checkbox-material-blue-900 input[type=checkbox]:checked + .checkbox-material .check:before {
+  color: #0d47a1;
+}
+.checkbox-material-blue-900 input[type=checkbox]:checked + .checkbox-material .check {
+  color: #0d47a1;
+}
+.togglebutton-material-blue-900 label input[type=checkbox]:checked + .toggle {
+  background-color: rgba(13, 71, 161, 0.5);
+}
+.togglebutton-material-blue-900 label input[type=checkbox]:checked + .toggle:after {
+  background-color: #0d47a1;
+}
+.togglebutton-material-blue-900 label input[type=checkbox]:checked + .toggle:active:after {
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(13, 71, 161, 0.1);
+}
+.radio-material-blue-900 input[type=radio]:checked ~ .check {
+  background-color: #0d47a1;
+}
+.radio-material-blue-900 input[type=radio]:checked ~ .circle {
+  border-color: #0d47a1;
+}
+.form-group-material-blue-900 .form-control:focus {
+  background-image: linear-gradient(#0d47a1, #0d47a1), linear-gradient(#d2d2d2, #d2d2d2);
+}
+.form-group-material-blue-900 .form-control.focus {
+  background-image: linear-gradient(#0d47a1, #0d47a1), linear-gradient(#d2d2d2, #d2d2d2);
+}
+.form-group-material-blue-900 input.form-control:focus ~ .floating-label {
+  color: #0d47a1;
+}
+.navbar-material-blue-900.navbar {
+  background-color: #0d47a1;
+  color: rgba(255, 255, 255, 0.84);
+}
+.navbar-material-blue-900.navbar .navbar-form .form-control-wrapper input.form-control::-webkit-input-placeholder,
+.navbar-material-blue-900.navbar .navbar-form input.form-control::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.84);
+}
+.navbar-material-blue-900.navbar .navbar-form .form-control-wrapper input.form-control::-moz-placeholder,
+.navbar-material-blue-900.navbar .navbar-form input.form-control::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.84);
+}
+.navbar-material-blue-900.navbar .navbar-form .form-control-wrapper input.form-control:-ms-input-placeholder,
+.navbar-material-blue-900.navbar .navbar-form input.form-control:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.84);
+}
+.navbar-material-blue-900.navbar .navbar-form .form-control-wrapper input.form-control::placeholder,
+.navbar-material-blue-900.navbar .navbar-form input.form-control::placeholder {
+  color: rgba(255, 255, 255, 0.84);
+}
+.navbar-material-blue-900.navbar .dropdown-menu li > a:hover,
+.navbar-material-blue-900.navbar .dropdown-menu li > a:focus {
+  color: #0d47a1;
+}
+.navbar-material-blue-900.navbar .dropdown-menu .active > a {
+  background-color: #0d47a1;
+  color: rgba(255, 255, 255, 0.84);
+}
+.navbar-material-blue-900.navbar .dropdown-menu .active > a:hover,
+.navbar-material-blue-900.navbar .dropdown-menu .active > a:focus {
+  color: rgba(255, 255, 255, 0.84);
+}
+.dropdown-menu-material-blue-900 li a:hover {
+  color: #0d47a1;
+}
+.alert-material-blue-900 {
+  background-color: #0d47a1;
+  color: rgba(255, 255, 255, 0.84);
+}
+.alert-material-blue-900 a,
+.alert-material-blue-900 .alert-link {
+  color: rgba(255, 255, 255, 0.84);
+}
+.progress .progress-bar-material-blue-900 {
+  background-color: #0d47a1;
+}
+.mdi-material-blue-900,
+icon-material-blue-900 {
+  color: #0d47a1;
+}
+.label-material-blue-900 {
+  background-color: #0d47a1;
+}
+.panel-material-blue-900 > .panel-heading {
+  background-color: #0d47a1;
+}
+.slider-material-blue-900.noUi-connect {
+  background-color: #0d47a1;
+}
+.slider-material-blue-900 .noUi-connect {
+  background-color: #0d47a1;
+}
+.slider-material-blue-900 .noUi-handle {
+  background-color: #0d47a1;
+}
+/*FIN DEL MATERIAL COLOR AZUL 900*/
+
+/*MATERIAL COLOR AMARILLO 500*/
+body .well-material-yellow-500,
+.container .well-material-yellow-500,
+.container-fluid .well-material-yellow-500,
+body .jumbotron-material-yellow-500,
+.container .jumbotron-material-yellow-500,
+.container-fluid .jumbotron-material-yellow-500 {
+  background-color: #ffeb3b;
+}
+.btn-material-yellow-500.btn-flat:not(.btn-link) {
+  color: #ffeb3b;
+}
+.btn-material-yellow-500:not(.btn-link):not(.btn-flat) {
+  background-color: #ffeb3b;
+  color: rgba(0, 0, 0, 0.84);
+}
+.btn-material-yellow-500:hover:not(.btn-link):not(.btn-flat) {
+  background-color: #ffe927;
+}
+.btn-material-yellow-500:active:not(.btn-link):not(.btn-flat) {
+  background-color: #ffe81c;
+}
+.btn-material-yellow-500.active:not(.btn-link):not(.btn-flat) {
+  background-color: #ffe81c;
+}
+.btn-material-yellow-500.btn-flat:hover:not(.btn-ink) {
+  background-color: rgba(255, 235, 59, 0.2);
+}
+.btn.btn-fab-material-yellow-500,
+.btn.btn-fab:hover-material-yellow-500,
+.btn.btn-fab:active-material-yellow-500 {
+  background-color: #ffeb3b;
+}
+.open > .dropdown-toggle.btn-material-yellow-500 {
+  background-color: #ffeb3b;
+}
+.checkbox-material-yellow-500 input[type=checkbox]:checked + .checkbox-material .check:after {
+  background-color: #ffeb3b;
+}
+.checkbox-material-yellow-500 input[type=checkbox]:checked + .checkbox-material .check:before {
+  color: #ffeb3b;
+}
+.checkbox-material-yellow-500 input[type=checkbox]:checked + .checkbox-material .check {
+  color: #ffeb3b;
+}
+.togglebutton-material-yellow-500 label input[type=checkbox]:checked + .toggle {
+  background-color: rgba(255, 235, 59, 0.5);
+}
+.togglebutton-material-yellow-500 label input[type=checkbox]:checked + .toggle:after {
+  background-color: #ffeb3b;
+}
+.togglebutton-material-yellow-500 label input[type=checkbox]:checked + .toggle:active:after {
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 235, 59, 0.1);
+}
+.radio-material-yellow-500 input[type=radio]:checked ~ .check {
+  background-color: #ffeb3b;
+}
+.radio-material-yellow-500 input[type=radio]:checked ~ .circle {
+  border-color: #ffeb3b;
+}
+.form-group-material-yellow-500 .form-control:focus {
+  background-image: linear-gradient(#ffeb3b, #ffeb3b), linear-gradient(#d2d2d2, #d2d2d2);
+}
+.form-group-material-yellow-500 .control-label {
+  color: #ffeb3b;
+}
+.form-group-material-yellow-500 input.form-control:focus ~ .floating-label {
+  color: #ffeb3b;
+}
+.navbar-material-yellow-500.navbar {
+  background-color: #ffeb3b;
+  color: rgba(0, 0, 0, 0.84);
+}
+.navbar-material-yellow-500.navbar .navbar-form .form-control-wrapper input.form-control::-webkit-input-placeholder,
+.navbar-material-yellow-500.navbar .navbar-form input.form-control::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.84);
+}
+.navbar-material-yellow-500.navbar .navbar-form .form-control-wrapper input.form-control::-moz-placeholder,
+.navbar-material-yellow-500.navbar .navbar-form input.form-control::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.84);
+}
+.navbar-material-yellow-500.navbar .navbar-form .form-control-wrapper input.form-control:-ms-input-placeholder,
+.navbar-material-yellow-500.navbar .navbar-form input.form-control:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.84);
+}
+.navbar-material-yellow-500.navbar .navbar-form .form-control-wrapper input.form-control::placeholder,
+.navbar-material-yellow-500.navbar .navbar-form input.form-control::placeholder {
+  color: rgba(0, 0, 0, 0.84);
+}
+.navbar-material-yellow-500.navbar .dropdown-menu li > a:hover,
+.navbar-material-yellow-500.navbar .dropdown-menu li > a:focus {
+  color: #ffeb3b;
+}
+.navbar-material-yellow-500.navbar .dropdown-menu .active > a {
+  background-color: #ffeb3b;
+  color: rgba(0, 0, 0, 0.84);
+}
+.navbar-material-yellow-500.navbar .dropdown-menu .active > a:hover,
+.navbar-material-yellow-500.navbar .dropdown-menu .active > a:focus {
+  color: rgba(0, 0, 0, 0.84);
+}
+.dropdown-menu-material-yellow-500 li a:hover {
+  color: #ffeb3b;
+}
+.alert-material-yellow-500 {
+  background-color: #ffeb3b;
+  color: rgba(0, 0, 0, 0.84);
+}
+.alert-material-yellow-500 a,
+.alert-material-yellow-500 .alert-link {
+  color: rgba(0, 0, 0, 0.84);
+}
+.progress .progress-bar-material-yellow-500 {
+  background-color: #ffeb3b;
+}
+.mdi-material-yellow-500,
+icon-material-yellow-500 {
+  color: #ffeb3b;
+}
+.label-material-yellow-500 {
+  background-color: #ffeb3b;
+}
+.panel-material-yellow-500 > .panel-heading {
+  background-color: #ffeb3b;
+}
+.slider-material-yellow-500.noUi-connect {
+  background-color: #ffeb3b;
+}
+.slider-material-yellow-500 .noUi-connect {
+  background-color: #ffeb3b;
+}
+.slider-material-yellow-500 .noUi-handle {
+  background-color: #ffeb3b;
+}
+/*FIN DEL MATERIAL COLOR AMARILLO 500 */
+
+/*DISEÑO DEL SUB MENU*/
+.submenu{
+    background-color: #0d47a1;
+    color: white;
+    border-radius: 5px;
+    margin: 0px;
+	}
